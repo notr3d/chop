@@ -44,7 +44,7 @@ ul {
 			background: #000;
 			position: absolute;
 			left: -20px;
-			top: 50%;
+			top: 10px;
 		}
 	}
 }
@@ -130,3 +130,48 @@ ul {
 	}
 }
 
+.licenses {
+	&__container {
+		margin-top: 20px;
+	}
+	&__item {
+		text-align: center;
+		img {
+			width: 250px;
+			height: 350px;
+		}
+	}
+	.intense{
+		cursor: url('../img/intense/plus_cursor.png') 25 25, auto;
+	}
+}
+
+.customers {
+	&__item {
+		display: inline-block;
+		padding: 20px;
+		text-align: center;
+		margin-bottom: 20px;
+		height: 160px;
+		img {
+			text-align: center;
+		}
+		p {
+			margin: 10px 0;
+		}
+	}
+}
+
+.category {
+	ul {
+		li {
+			padding: 5px;
+			&::before {
+				top: 15px;	
+			}
+			a {
+				
+			}
+		}
+	}
+}

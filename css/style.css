@@ -100,7 +100,7 @@ ul li::before {
   background: #000;
   position: absolute;
   left: -20px;
-  top: 50%;
+  top: 10px;
 }
 .features__item {
   padding: 10px;
@@ -163,4 +163,36 @@ ul li::before {
 }
 .popular__item:nth-of-type(3)::before {
   background-position: -83px -135px;
+}
+.licenses__container {
+  margin-top: 20px;
+}
+.licenses__item {
+  text-align: center;
+}
+.licenses__item img {
+  width: 250px;
+  height: 350px;
+}
+.licenses .intense {
+  cursor: url('../img/intense/plus_cursor.png') 25 25, auto;
+}
+.customers__item {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  height: 160px;
+}
+.customers__item img {
+  text-align: center;
+}
+.customers__item p {
+  margin: 10px 0;
+}
+.category ul li {
+  padding: 5px;
+}
+.category ul li::before {
+  top: 15px;
 }
