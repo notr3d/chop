@@ -1,15 +1,12 @@
 .page-header {
-	background: #eee;
-	padding: 10px 0;
 	.navbar-header {
 		.navbar-toggle {
-			border: 1px solid #ddd;
+			border: 2px solid @blue;
 			border-radius: 0;
 			.icon-bar {
-				background: #ddd;
+				background: @blue;
 			}
-		}
-		
+		}		
 	}
 }
 .page-logo {
@@ -30,6 +27,9 @@
 	}
 }
 .page-nav {
+	.navbar {
+		margin-bottom: 0;
+	}
 	&__link {
 		font-size: 15px;
 		padding: 20px 25px !important;
@@ -37,17 +37,7 @@
 		font-size: 16px;
 		font-weight: bold;
 		color: #000;
-//		&::after {
-//			content: '';
-//			display: block;
-//			width: 1px;
-//			height: 20px;
-//			background: #000;
-//			position: absolute;
-//			left: 100%;
-//			top: 50%;
-//			margin-top: -10px;
-//		}
+		transition: all .3s;
 		&:hover {
 			color: #fff;
 			background: @blue !important;
