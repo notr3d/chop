@@ -1,7 +1,6 @@
 /*@mobile: ~ "(max-width: 767px)";
 @tablet: ~ "(min-width: 768px)";
 @desktop: ~ "(min-width: 1080)";*/
-/*@blue:#29c5e6;*/
 .page-header {
   background: #eee;
   padding: 10px 0;
@@ -15,30 +14,38 @@
 }
 .page-logo {
   display: inline-block;
-  padding: 15px;
-  padding-left: 120px;
+  padding: 0;
+  padding-left: 100px;
+  line-height: 60px;
   min-height: 60px;
   min-width: 60px;
   background: url(../img/page-logo.png) no-repeat 30px 50%;
   font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  transition: all .3s;
+}
+.page-logo:hover {
+  text-decoration: none;
+  color: #14237d;
 }
 .page-nav__link {
-  padding: 10px 25px !important;
+  font-size: 15px;
+  padding: 20px 25px !important;
   position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+.page-nav__link:hover {
+  color: #fff;
+  background: #14237d !important;
 }
 .page-nav li::before {
   display: none;
 }
-.page-nav li:not(:last-child)::after {
-  content: '';
-  display: block;
-  width: 1px;
-  height: 20px;
-  background: #000;
-  position: absolute;
-  left: 100%;
-  top: 50%;
-  margin-top: -10px;
+.page-nav li:last-child a::after {
+  display: none;
 }
 .contacts__header {
   margin-bottom: 40px;

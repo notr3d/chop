@@ -6,6 +6,7 @@
         var mapProp = {
             center:myCenter,
             zoom:16,
+					  scrollwheel:false,
             mapTypeId:google.maps.MapTypeId.ROADMAP
         };
 
