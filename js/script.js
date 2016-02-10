@@ -1,21 +1,25 @@
-var myCenter=new google.maps.LatLng(51.508742,-0.120850);
-
-function initialize()
 {
-var mapProp = {
-  center:myCenter,
-  zoom:5,
-  mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
 
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    var myCenter=new google.maps.LatLng(54.212117, 37.646803);
 
-var marker=new google.maps.Marker({
-  position:myCenter,
-  icon:'page-logo.png'
-  });
+    function initialize(){
+        var mapProp = {
+            center:myCenter,
+            zoom:16,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
 
-marker.setMap(map);
+        var map=new google.maps.Map(document.getElementById("map"), mapProp);
+
+        var marker=new google.maps.Marker({
+            position:myCenter,
+            icon:'../img/page-logo.png',
+            size: new google.maps.Size(20, 32)
+        });
+
+        marker.setMap(map);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+
 }
-
-google.maps.event.addDomListener(window, 'load', initialize);
