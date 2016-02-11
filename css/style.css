@@ -88,6 +88,10 @@
   max-width:1080px;
   margin: 0 auto;
 }*/
+*::selection {
+  background: #14237d;
+  color: #fff;
+}
 body {
   margin: 0;
   background: #f8f6f8;
@@ -117,6 +121,22 @@ ul li::before {
   position: absolute;
   left: -20px;
   top: 10px;
+}
+.download {
+  float: right;
+  font-size: 20px;
+  display: inline-block;
+  background: #14237d;
+  color: #fff;
+  padding: 14px;
+  border-radius: 10px;
+  transition: all .3s;
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.5);
+}
+.download:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+  background: #1b2fa9;
 }
 .features {
   background: url(../img/features/bg.jpg) no-repeat center;
@@ -168,7 +188,8 @@ ul li::before {
   background-image: url(../img/features/3.png);
 }
 .popular {
-  border-right: 2px dotted #ddd;
+  border: 2px dotted #ddd;
+  padding-left: 25px;
 }
 .popular img {
   background: #eee;
@@ -237,8 +258,41 @@ ul li::before {
   margin: 10px 0;
 }
 .category ul li {
-  padding: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all .3s;
 }
 .category ul li::before {
   top: 15px;
+}
+.category ul li.active {
+  background: #14237d;
+}
+.category ul li.active a {
+  text-decoration: none;
+  color: #fff;
+}
+.prices__table {
+  width: 100%;
+  font-size: 16px;
+  color: #000;
+}
+.prices td,
+.prices th {
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 5px;
+}
+.prices th {
+  background: #c0bec0;
+  color: #fff;
+}
+.prices tr:nth-of-type(2n) td {
+  background: #e9e7e9;
+}
+.prices tr td {
+  background: #f5f3f5;
+}
+.prices tr td:nth-of-type(2) {
+  text-align: left;
 }
