@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <header class="page-header">
@@ -21,15 +22,22 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="page-logo navbar-brand" href="index.html">Тула Регион Охрана</a>
+							<a class="page-logo navbar-brand" href="index.html"><span class="hidden-xs">Тула Регион Охрана</span></a>
 						</div>
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
 								<li class="active"><a href="index.html" class="page-nav__link">О компании <span class="sr-only">(current)</span></a></li>
-								<li><a href="licenses.html" class="page-nav__link">Лицензии</a></li>
 								<li><a href="services.html" class="page-nav__link">Услуги</a></li>
+								<li class="dropdown">
+									<a href="#" class="page-nav__link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Документы <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="licenses.html" class="page-nav__link page-nav__link--small" class="page-nav__link">Лицензии</a></li>
+										<li><a href="reviews.html" class="page-nav__link page-nav__link--small">Отзывы</a></li>
+									</ul>
+								</li>
+								<li><a href="prices.html" class="page-nav__link">Цены</a></li>
 								<li><a href="customers.html" class="page-nav__link">Заказчики</a></li>
-								<li><a href="contacts.html" class="page-nav__link">Контактная информация</a></li>
+								<li><a href="contacts.html" class="page-nav__link">Контакты</a></li>
 							</ul>
 						</div>
 					</div>
@@ -61,7 +69,7 @@
   				<div class="popular__container">
   					<div class="popular__item row">
 							<a href="licenses.html">Лицензии</a>
-							<p>Перечень лицензий, имеющихся у предприятий, входящих в состав группы ЧОП «Тула Регион Охрана».</p>
+							<p>Перечень лицензий, имеющихся у предприятий, входящих в состав группы ЧОО «ТулаРегионОхрана».</p>
   					</div>
   					<div class="popular__item row">
 							<a href="customers.html">Заказчики</a>
@@ -97,25 +105,27 @@
   </main>
   <footer class="page-footer">
   	<div class="page-footer__wrapper container">
-  		<div class="page-footer__item col-sm-4">
-  			<ul class="page-footer__nav">
+  		<div class="page-footer__left col-sm-8 container">
+  			<ul class="page-footer__nav col-sm-6">
   				<li><a href="index.html">О компании</a></li>
   				<li><a href="licenses.html">Лицензии</a></li>
   				<li><a href="services.html">Услуги</a></li>
   				<li><a href="customers.html">Заказчики</a></li>
-  				<li><a href="contacts.html">Контакты</a></li>
   			</ul>
+  			<ul class="page-footer__nav col-sm-6">
+  				<li><a href="services.html">Услуги</a></li>
+  				<li><a href="customers.html">Заказчики</a></li>
+  				<li><a href="contacts.html">Контакты</a></li>
+  			</ul>  			
 			</div>	
-			<div class="page-footer__item col-sm-4">
+			<div class="page-footer__right col-sm-4 container"> 			
   			<address>
-					<strong>ЧОП "Тула Регион Охрана"</strong><br>
-					Россия, 300004, Тула, Веневское ш., д.4<br>
-					Телефон: +8 (4872) 52-44-51
+					<p class="phone">8 (4872) 52-44-51</p>
+					Россия, Тула, 300004,<br>
+					Веневское ш., д.4
+					<p class="copy">© 2016 ЧОО "ТулаРегионОхрана"</p>
 				</address>
-			</div>
-			<div class="page-footer__item col-sm-4">
-  	  	<a href="index.html" class="page-logo">Тула Регион Охрана</a>
-			</div>			
+			</div>		
   	</div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
