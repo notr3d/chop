@@ -5,6 +5,12 @@
 .page-header .navbar-header .navbar-toggle .icon-bar {
   background: #14237d;
 }
+@media (max-width: 767px) {
+  .page-header {
+    background: #eceaec;
+    border-bottom: 1px solid #ddd;
+  }
+}
 .page-logo {
   display: inline-block;
   padding: 0;
@@ -25,8 +31,12 @@
 .page-nav .navbar {
   margin-bottom: 0;
 }
+.page-nav .dropdown-menu {
+  border-radius: 0 !important;
+  left: 0;
+  padding: 0;
+}
 .page-nav__link {
-  font-size: 15px;
   padding: 20px 25px !important;
   position: relative;
   font-size: 16px;
@@ -34,8 +44,16 @@
   color: #000;
   transition: all .3s;
 }
+.page-nav__link--small {
+  padding: 10px 0 10px 20px !important;
+  font-size: 15px;
+}
+.page-nav__link--small:hover {
+  color: #fff !important;
+  background: #ffffff !important;
+}
 .page-nav__link:hover {
-  color: #fff;
+  color: #fff !important;
   background: #14237d !important;
 }
 .page-nav li::before {
@@ -125,8 +143,18 @@
   font-size: 30px;
   font-weight: lighter;
 }
+@media (max-width: 767px) {
+  .page-footer .phone {
+    margin-bottom: 20px;
+  }
+}
 .page-footer .copy {
   margin-top: 5px;
+}
+@media (max-width: 767px) {
+  .page-footer .copy {
+    margin-top: 20px;
+  }
 }
 /*@font-face {
   font-family: Oswald;
