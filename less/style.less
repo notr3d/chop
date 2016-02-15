@@ -313,5 +313,19 @@ article {
 .reviews {
   &__item {
     text-align: center;
+    img {
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      transition: all .3s;
+      &:hover {
+        border: 1px solid #ccc;
+        box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5);
+      }
+    }
+    span {
+      font-size: 18px;
+      font-weight: bold;
+    }
   }
 }
