@@ -94,7 +94,6 @@
   color: #fff;
   padding: 60px 40px;
   text-shadow: 2px 2px 2px black;
-  border: 1px solid #14237d;
   font-size: 45px;
 }
 .page-footer {
@@ -206,6 +205,7 @@ article h2,
 article h3 {
   padding-bottom: 20px;
   margin-bottom: 20px;
+  border-bottom: 1px solid #14237d;
 }
 article img {
   margin-bottom: 20px;
