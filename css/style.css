@@ -387,22 +387,45 @@ article ul li::before {
 .customers__item p {
   margin: 10px 0;
 }
-.category ul li {
-  border-radius: 5px;
-  transition: all .3s;
+.category ul {
+  list-style: none;
+  padding: 0;
 }
-.category ul li::before {
-  top: 15px;
+.category ul li {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background: #fff;
+}
+.category ul li:hover {
+  background: #eee;
+}
+.category ul li:hover a {
+  text-decoration: none;
 }
 .category ul li.active {
   background: #14237d;
+  position: relative;
+}
+.category ul li.active::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-left: -5px;
+  margin-top: -5px;
+  background: #14237d;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: rotate(45deg);
+  opacity: 1;
 }
 .category ul li.active a {
   text-decoration: none;
   color: #fff;
 }
 .category ul li a {
-  display: inline-block;
+  display: block;
   padding: 5px 10px;
 }
 .prices__table {

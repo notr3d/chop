@@ -238,21 +238,42 @@ article {
 
 .category {
 	ul {
+    list-style: none;
+    padding: 0;
 		li {
-			border-radius: 5px;
-			transition: all .3s;
-			&::before {
-				top: 15px;	
-			}
+      border: 1px solid #ddd;
+      margin-top: -1px;
+      background: #fff;
+      &:hover {
+        background: #eee;
+        a {
+          text-decoration: none;
+        }
+      }
 			&.active {				
 				background: @blue;
+        position: relative;
+        &::before {
+          content: '';
+          display: block;
+          width: 10px;
+          height: 10px;
+          margin-left: -5px;
+          margin-top: -5px;
+          background: @blue;
+          position: absolute;
+          left: 100%;
+          top: 50%;
+          transform:rotate(45deg);
+          opacity: 1;
+        }
 				a {
 					text-decoration: none;
 					color: #fff;
 				}
 			}
 			a {
-				display: inline-block;
+				display:block;
 			  padding: 5px 10px;
 			}
 		}
