@@ -58,6 +58,10 @@
   color: #fff !important;
   background: #14237d !important;
 }
+.page-nav__link:focus {
+  color: #fff !important;
+  background: #14237d !important;
+}
 @media (max-width: 767px) {
   .page-nav__link {
     border-top: 2px solid #ccc;
@@ -89,12 +93,10 @@
 }
 .about__header {
   margin: 0;
-  margin-bottom: 20px;
-  background: url(../img/about/index-bg.png);
-  color: #fff;
-  padding: 60px 40px;
-  text-shadow: 2px 2px 2px black;
-  font-size: 45px;
+}
+.about__item h2 {
+  text-align: center;
+  padding: 0;
 }
 .page-footer {
   background: #f8f6f8 url(../img/body-bg.png);
