@@ -149,6 +149,7 @@
 .page-footer .phone {
   font-size: 30px;
   font-weight: lighter;
+  line-height: 40px;
 }
 @media (max-width: 767px) {
   .page-footer .phone {
