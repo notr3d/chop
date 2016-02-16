@@ -23,9 +23,4 @@
 
     google.maps.event.addDomListener(window, 'load', initialize);
 
-}
-
-lightbox.option({
-  'resizeDuration': 200,
-  'wrapAround': true
-})
+};
