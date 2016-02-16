@@ -321,6 +321,7 @@ article ul li::before {
 .popular {
   border: 2px dotted #ddd;
   padding-left: 25px;
+  background: #fff;
 }
 .popular img {
   background: #eee;
@@ -329,10 +330,13 @@ article ul li::before {
   margin-bottom: 20px;
 }
 .popular__item {
+  width: 100%;
   margin-bottom: 20px;
   position: relative;
   padding-left: 70px;
-  padding-right: 40px;
+}
+.popular__item:not(:last-of-type) {
+  border-bottom: 2px dotted #eee;
 }
 .popular__item a {
   font-size: 18px;
@@ -342,6 +346,7 @@ article ul li::before {
 .popular__item p {
   font-size: 14px;
   line-height: 21px;
+  text-align: justify;
 }
 .popular__item::before {
   display: inline-block;

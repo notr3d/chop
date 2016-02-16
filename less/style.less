@@ -154,7 +154,8 @@ article {
 
 .popular {
 	border: 2px dotted #ddd;
-    padding-left: 25px;
+  padding-left: 25px;
+  background: #fff;
 	img {
 		background: #eee;
 	}
@@ -162,10 +163,13 @@ article {
 		margin-bottom: 20px;
 	}
 	&__item {
+    width: 100%;
 		margin-bottom: 20px;		
 	  position: relative;
 		padding-left: 70px;
-		padding-right: 40px;
+    &:not(:last-of-type) {
+      border-bottom: 2px dotted #eee;
+    }
 		a {
 			font-size: 18px;
 			//color: @blue;
@@ -175,6 +179,7 @@ article {
 		p {
 			font-size: 14px;
 			line-height: 21px;
+      text-align: justify;
 		}
 		&::before {
 			display: inline-block;
