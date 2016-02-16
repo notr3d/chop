@@ -403,7 +403,7 @@ article ul li::before {
   background: #fff;
 }
 .category ul li:hover {
-  background: #eee;
+  background: #eee url(../img/body-bg.png);
 }
 .category ul li:hover a {
   text-decoration: none;
@@ -424,7 +424,11 @@ article ul li::before {
   left: 100%;
   top: 50%;
   transform: rotate(45deg);
-  opacity: 1;
+}
+@media (max-width: 767px) {
+  .category ul li.active::before {
+    display: none;
+  }
 }
 .category ul li.active a {
   text-decoration: none;
@@ -433,6 +437,7 @@ article ul li::before {
 .category ul li a {
   display: block;
   padding: 5px 10px;
+  font-size: 16px;
 }
 .prices__table {
   width: 100%;
@@ -474,4 +479,17 @@ article ul li::before {
 .reviews__item span {
   font-size: 18px;
   font-weight: bold;
+}
+.mobile-menu__button {
+  width: 100%;
+  color: #337ab7;
+  text-align: left;
+  font-size: 20px;
+  border: 1px solid #eee;
+  padding: 5px 10px;
+  background: #fff;
+  outline: none;
+}
+.mobile-menu a {
+  font-size: 16px !important;
 }

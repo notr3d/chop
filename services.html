@@ -64,15 +64,26 @@
   <main class="page-main container">
   	<aside class="page-aside col-sm-4">
   		<section class="category">  		
-  			<h1 class="category__header">Услуги</h1>
-  			<ul class="" role="tablist">
+  			<h1 class="category__header hidden-xs">Услуги</h1>
+  			<ul class="hidden-xs" role="tablist">
 					<li role="presentation" class="active"><a href="#1" aria-controls="1" role="tab" data-toggle="tab">Охрана стационарных объектов</a></li>
 					<li role="presentation"><a href="#2" aria-controls="2" role="tab" data-toggle="tab">Обеспечение порядка в местах проведения массовых мероприятий</a></li>
 					<li role="presentation"><a href="#3" aria-controls="3" role="tab" data-toggle="tab">Личная охрана</a></li>					
 					<li role="presentation"><a href="#4" aria-controls="5" role="tab" data-toggle="tab">Пультовая охрана объектов</a></li>
 					<li role="presentation"><a href="#5" aria-controls="7" role="tab" data-toggle="tab">Технические системы безопасности</a></li>
 					<li role="presentation"><a href="#6" aria-controls="9" role="tab" data-toggle="tab">Юридические услуги</a></li>					
-				</ul>	
+				</ul>
+        <div class="mobile-menu visible-xs">
+          <button class="mobile-menu__button">Услуги <span class="caret"></span></button>           
+          <ul class="mobile-menu__list">
+            <li role="presentation" class="active"><a href="#1" aria-controls="1" role="tab" data-toggle="tab">Охрана стационарных объектов</a></li>
+            <li role="presentation"><a href="#2" aria-controls="2" role="tab" data-toggle="tab">Обеспечение порядка в местах проведения массовых мероприятий</a></li>
+            <li role="presentation"><a href="#3" aria-controls="3" role="tab" data-toggle="tab">Личная охрана</a></li>					
+            <li role="presentation"><a href="#4" aria-controls="5" role="tab" data-toggle="tab">Пультовая охрана объектов</a></li>
+            <li role="presentation"><a href="#5" aria-controls="7" role="tab" data-toggle="tab">Технические системы безопасности</a></li>
+            <li role="presentation"><a href="#6" aria-controls="9" role="tab" data-toggle="tab">Юридические услуги</a></li>	
+          </ul>  
+        </div>       
   		</section>
   		<section class="popular hidden-xs">
   			<div class="popular__wrapper">
@@ -155,5 +166,15 @@
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".mobile-menu__button").click(function(){
+        $(".mobile-menu__list").slideToggle();
+      });
+      $(".mobile-menu__list a").click(function(){
+        $(".mobile-menu__list").slideToggle();
+      })
+    });
+  </script>
 </body>
 </html>
