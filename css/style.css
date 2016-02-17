@@ -75,7 +75,7 @@
   display: none;
 }
 .contacts__header {
-  margin-bottom: 40px;
+  margin-bottom: 0;
 }
 .contacts__address {
   margin-bottom: 20px;
@@ -230,7 +230,6 @@ article h2,
 article h3 {
   margin-top: 0;
   padding-bottom: 20px;
-  margin-bottom: 20px;
 }
 article img {
   margin-bottom: 20px;
