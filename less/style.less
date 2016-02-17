@@ -124,58 +124,26 @@ tr {
 
 .features {
 	background: url(../img/features/bg.jpg) no-repeat center;
-	color: #fff;
-	padding: 20px 0;
+	padding: 20px 0 0;
 	&__item {
-		position: relative;
-		padding-left: 100px;
-		min-height: 80px;
-		a {
+		height: 80px;
+		color: #fff;
+		font-weight: bold;
+		font-size: 20px;
+		display: inline-block;
+		transition: all .3s;	
+		text-decoration: none;
+		vertical-align: middle;
+		&:hover {
 			color: #fff;
-			font-weight: bold;
-			font-size: 20px;
-			margin-bottom: 5px;
-			display: inline-block;			
-			padding: 5px 10px;
-			border-radius: 10px;
-			text-decoration: underline;
-			transition: all .3s;
-			&:hover {
-				background: @blue;
-				text-decoration: none;
-			}
 		}
-		p {
-			padding: 0 10px;
+		img {
+			float: left;
+			margin-right: 10px;
 		}
-		&::before {
-			content: '';
-			display: block;
-			width: 80px;
-			height: 80px;
-			background: no-repeat center;
-			background-size: contain;
-			position: absolute;
-			top: 50%;
-			left: 0;
-			margin-top: -40px;
+		span {
+			vertical-align: middle;
 		}
-		&:nth-of-type(1) {
-			&::before {			
-				background-image: url(../img/features/1.png);	
-			}
-		}
-		&:nth-of-type(2) {
-			&::before {	
-				background-image: url(../img/features/2.png);
-			}
-		}
-		&:nth-of-type(3) {
-			&::before {	
-				background-image: url(../img/features/3.png);
-			}
-		}
-		
 	}
 }
 
@@ -264,7 +232,6 @@ tr {
 		padding: 20px;
 		text-align: center;
 		margin-bottom: 20px;
-		height: 200px;
 		
 		&:hover {
 			text-decoration: none;
@@ -272,8 +239,10 @@ tr {
 				box-shadow: 0 2px 1px #ddd;
 			}
 		}
-		div {			
-			padding: 10px 5px 0;	
+		div {				
+		  height: 180px;
+			padding: 10px 5px 0;
+			margin: 0 auto;	
 			border: 1px solid #ddd;
 			background: #fff;
 			box-shadow: 0 1px 1px 0 #ddd;
