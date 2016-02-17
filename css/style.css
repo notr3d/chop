@@ -296,7 +296,7 @@ tr td:nth-of-type(2) {
 }
 .features {
   background: url(../img/features/bg.jpg) no-repeat center;
-  padding: 20px 0 0;
+  padding-top: 20px;
 }
 .features__item {
   height: 80px;
@@ -317,6 +317,9 @@ tr td:nth-of-type(2) {
 }
 .features__item span {
   vertical-align: middle;
+}
+.features .slick-slider {
+  margin-bottom: 15px;
 }
 .popular {
   border: 2px dotted #ddd;
