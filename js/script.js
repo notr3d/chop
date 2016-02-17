@@ -1,3 +1,14 @@
+$(document).ready(function(){
+	$('.features__wrapper').slick({
+		autoplay:true,
+		autoplaySpeed:10000,
+		dots:false,
+		slidesToShow:3,
+		slidesToScroll:3,
+		speed:600
+	});
+});
+
 {
 
     var myCenter=new google.maps.LatLng(54.212117, 37.646803);
@@ -24,6 +35,7 @@
     google.maps.event.addDomListener(window, 'load', initialize);
 
 };
+
 
 
 
