@@ -76,7 +76,33 @@ article {
   }
 }
 
-
+table {
+	width: 100%;
+	font-size: 16px;
+	color: #000;
+}
+td, th {		
+	text-align: center;
+	border: 2px solid #fff;
+	padding: 5px;		
+}
+th {
+	background: #c0bec0;
+	color: #fff;
+}
+tr {
+	&:nth-of-type(2n) {
+		td {
+			background: #e9e7e9;
+		}
+	}
+	td {
+		background: #f5f3f5;
+		&:nth-of-type(2) {
+			text-align: left;
+		}
+	}
+}
 
 .download {
 	float: right;
@@ -232,16 +258,32 @@ article {
 
 .customers {
 	&__item {
-		display: inline-block;
+		display: block;
+		margin-left: -1px;
 		padding: 20px;
 		text-align: center;
 		margin-bottom: 20px;
-		height: 160px;
+		height: 200px;
+		
+		&:hover {
+			text-decoration: none;
+			div {
+				box-shadow: 0 2px 1px #ddd;
+			}
+		}
+		div {			
+			padding: 10px 5px 0;	
+			border: 1px solid #ddd;
+			background: #fff;
+			box-shadow: 0 1px 1px 0 #ddd;
+			transition: all .3s;
+		}
 		img {
-			text-align: center;
+			margin-bottom: 10px;
+			max-width: 100%;
 		}
 		p {
-			margin: 10px 0;
+			font-size: 16px;
 		}
 	}
 }
@@ -294,33 +336,7 @@ article {
 }
 
 .prices {
-	&__table {
-		width: 100%;
-		font-size: 16px;
-		color: #000;
-	}
-	td, th {		
-		text-align: center;
-		border: 2px solid #fff;
-		padding: 5px;		
-	}
-	th {
-		background: #c0bec0;
-		color: #fff;
-	}
-	tr {
-		&:nth-of-type(2n) {
-			td {
-				background: #e9e7e9;
-			}
-		}
-		td {
-			background: #f5f3f5;
-			&:nth-of-type(2) {
-				text-align: left;
-			}
-		}
-	}
+	
 }
 
 .reviews {

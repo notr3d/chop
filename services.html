@@ -22,7 +22,7 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="page-logo navbar-brand" href="index.html"><span class="hidden-xs">Тула Регион Охрана</span></a>
+							<a class="page-logo navbar-brand" href="index.html"><span>Тула Регион Охрана</span></a>
 						</div>
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
@@ -112,10 +112,94 @@
 						<div role="tabpanel" class="tab-pane fade in active" id="1">
 						  <h2 class="services__header">Охрана стационарных объектов</h2>
 						  <img src="img/services/1.png" alt="">
+						  <div class="table-responsive">
+								<table class="prices__table table">
+									<thead>
+										<tr>
+											<th rowspan="2">№ п/п</th>
+											<th rowspan="2">Наименование услуги</th>
+											<th rowspan="2">Ед. изм.</th>
+											<th colspan="2">Цена, руб.</th>
+										</tr>
+										<tr>
+											<th>до 12 ч</th>
+											<th>до 24 ч</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1</td>
+											<td>Стационарные объекты I категории</td>
+											<td>чел/ч</td>
+											<td>215</td>
+											<td>160</td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Стационарные объекты II категории</td>
+											<td>чел/ч</td>
+											<td>225</td>
+											<td>180</td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td>Стационарные объекты III категории</td>
+											<td>чел/ч</td>
+											<td>250</td>
+											<td>220</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 						</div>
 						<div role="tabpanel" class="tab-pane fade" id="2">
 							<h2 class="services__header">Обеспечение порядка в местах проведения массовых мероприятий</h2>
-							
+							<div class="table-responsive">
+						<table class="prices__table table">
+							<thead>
+								<tr>
+									<th rowspan="2">№ п/п</th>
+									<th rowspan="2">Наименование услуги</th>
+									<th rowspan="2">Ед. изм.</th>
+									<th colspan="2">Цена, руб.</th>
+								</tr>
+								<tr>
+									<th>до 12 ч</th>
+									<th>до 24 ч</th>
+								</tr>
+							</thead>
+							<tbody>								
+								<tr>
+									<td>1</td>
+									<td>Охрана массовых мероприятий до 50 человек на постоянной основе</td>
+									<td>чел/ч</td>
+									<td>250</td>
+									<td>280</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Охрана массовых мероприятий более 50 человек на постоянной основе</td>
+									<td>чел/ч</td>
+									<td>280</td>
+									<td>310</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>Охрана массовых мероприятий до 50 человек на разовой основе</td>
+									<td>чел/ч</td>
+									<td>280</td>
+									<td>310</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>Охрана массовых мероприятий более 50 человек на разовой основе</td>
+									<td>чел/ч</td>
+									<td>310</td>
+									<td>340</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 						</div>
 						<div role="tabpanel" class="tab-pane fade" id="3">
 							<h2 class="services__header">Личная охрана</h2>
@@ -185,7 +269,6 @@
 			});
 			x = $(location).attr('href');
 			x = x.substr(x.indexOf('#')); 
-			alert(x);
 			$('a[href="' + x + '"]').tab('show');
     });
   </script>
