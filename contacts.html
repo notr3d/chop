@@ -45,16 +45,16 @@
 			</section>
 			<section class="features row hidden-xs">
 				<div class="features__wrapper container">
-					<div href="#" class="features__item col-sm-4">
-						<a href="#">Охрана объектов</a>
+					<div class="features__item col-sm-4">
+						<a href="services.html#1" id="#link-1">Охрана объектов</a>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, vero cumque!.</p>
 					</div>
-					<div href="#" class="features__item col-sm-4">
-						<a href="#">Охрана мероприятий</a>
+					<div class="features__item col-sm-4">
+						<a href="services.html#2" id="#link-2">Охрана мероприятий</a>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, vero cumque!</p>
 					</div>
-					<div href="#" class="features__item col-sm-4">
-						<a href="#">Вооруженная охрана</a>
+					<div class="features__item col-sm-4">
+						<a href="services.html#3" id="#link-3">Вооруженная охрана</a>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, vero cumque!</p>
 					</div>					
 				</div>
@@ -143,5 +143,18 @@
   <script src="js/bootstrap.js"></script>
   <script src="http://maps.googleapis.com/maps/api/js"></script>
   <script src="js/script.js"></script>
+  <script>
+		$(document).ready(function(){      
+			$("#link-1").click(function(){
+				$('a[href="#1"]').tab('show');
+			});
+			$("#link-2").click(function(){
+				$('a[href="#2"]').tab('show');
+			});
+			$("#link-3").click(function(){
+				$('a[href="#3"]').tab('show');
+			});			
+    });
+	</script>
 </body>
 </html>
