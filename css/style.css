@@ -2,11 +2,14 @@
   background: #f8f6f8 url(../img/body-bg.png);
 }
 .page-header .navbar-header .navbar-toggle {
-  border: 2px solid #14237d;
-  border-radius: 0;
+  border: 2px solid #aaa;
+  background: #fff;
+  border-radius: 5px;
+  margin: 0;
+  margin-top: 13px;
 }
 .page-header .navbar-header .navbar-toggle .icon-bar {
-  background: #14237d;
+  background: #aaa;
 }
 @media (max-width: 767px) {
   .page-header {
@@ -29,6 +32,11 @@
 .page-logo:hover {
   text-decoration: none;
   color: #14237d;
+}
+@media (max-width: 767px) {
+  .page-logo {
+    font-size: 16px;
+  }
 }
 .page-nav .navbar {
   margin-bottom: 0;

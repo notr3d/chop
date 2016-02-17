@@ -3,10 +3,13 @@
 	background: #f8f6f8 url(../img/body-bg.png);
 	.navbar-header {
 		.navbar-toggle {
-			border: 2px solid @blue;
-			border-radius: 0;
+			border: 2px solid #aaa;
+			background: #fff;
+			border-radius: 5px;
+			margin: 0;
+			margin-top: 13px;
 			.icon-bar {
-				background: @blue;
+				background: #aaa;
 			}
 		}		
 	}
@@ -29,6 +32,9 @@
 	&:hover {
 		text-decoration: none;
 		color: @blue;
+	}
+	@media @mobile {
+		font-size: 16px;
 	}
 }
 .page-nav {
