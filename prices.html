@@ -100,9 +100,16 @@
   	<article class="prices col-sm-8">  	
   		<div class="prices__wrapper">
   			<h1 class="prices__header">
-  				<span>Цены</span>  			
-  				<a href="region-chop.PDF" class="download">Скачать каталог</a></h1>
-  			<div class="about__container">
+				<span>Цены</span>  			
+				<a href="region-chop.PDF" class="download">Скачать каталог</a></h1>
+  			<div class="prices__container">
+  				<div class="prices__calculator">
+						<input id="x" value="1" placeholder="x">
+						<input id="y" value="2" placeholder="y">
+						<input id="z" value="3" placeholder="z"> 
+						<button id="calc">Расчитать</button>
+						<span id="res">1s</span>
+					</div>
 					<div class="table-responsive">
 						<table class="prices__table table">
 							<thead>
@@ -287,5 +294,15 @@
   <script src="js/bootstrap.js"></script>
   <script src="js/slick.js"></script>
   <script src="js/script.js"></script>
+  <script>
+		x = $('#x').val();
+		y = $('#y').val();
+		z = $('#z').val();
+		calc = $('#calc');
+		res = $('#res');
+		$(calc).click(function(){
+			$(res).text() = x + y + z;
+		})
+	</script>
 </body>
 </html>
