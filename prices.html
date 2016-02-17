@@ -55,10 +55,12 @@
 					<img src="img/features/2.png" alt="" width="80" height="80">
 					<span>Обеспечение порядка в местах проведения массовых мероприятий</span>
 					</a>
+<!--
 					<a href="services.html#3" class="features__item" id="#link-3">
 					<img src="img/features/3.png" alt="" width="80" height="80">
 					<span>Личная охрана</span>
 					</a>
+-->
 					<a href="services.html#4" class="features__item" id="#link-4">
 					<img src="img/features/4.png" alt="" width="80" height="80">
 					<span>Пультовая охрана объектов</span>
@@ -86,11 +88,11 @@
 							<p>Перечень лицензий, имеющихся у предприятий, входящих в состав группы ЧОО «ТулаРегионОхрана».</p>
   					</div>
   					<div class="popular__item row">
-							<a href="customers.html">Заказчики</a>
+							<a href="customers.html">Отзывы</a>
 							<p>Наш профессионализм лучше всего подтверждает перечень наших заказчиков, доверяющих нам решение серьёзных охранных задач.</p>
   					</div>
   					<div class="popular__item row">
-							<a href="documents.html">Документы</a>
+							<a href="documents.html">Цены</a>
 							<p>Нормативно-правовые акты, регулирующие частную охранную деятельность на территории Российской Федерации.</p>
   					</div>
   				</div>
@@ -103,13 +105,15 @@
 				<span>Цены</span>  			
 				<a href="region-chop.PDF" class="download">Скачать каталог</a></h1>
   			<div class="prices__container">
+<!--
   				<div class="prices__calculator">
-						<input id="x" value="1" placeholder="x">
-						<input id="y" value="2" placeholder="y">
-						<input id="z" value="3" placeholder="z"> 
+						<input id="x" placeholder="x">+
+						<input id="y" placeholder="y">+
+						<input id="z" placeholder="z">=
 						<button id="calc">Расчитать</button>
-						<span id="res">1s</span>
+						<span id="res"></span>
 					</div>
+-->
 					<div class="table-responsive">
 						<table class="prices__table table">
 							<thead>
@@ -295,13 +299,23 @@
   <script src="js/slick.js"></script>
   <script src="js/script.js"></script>
   <script>
-		x = $('#x').val();
-		y = $('#y').val();
-		z = $('#z').val();
+		a = +($('#x').val());
+		b = +($('#y').val());
+		c = +($('#z').val());
 		calc = $('#calc');
 		res = $('#res');
+		$('#x').change(function(){
+			a = +($('#x').val());
+		});
+		$('#y').change(function(){
+			b = +($('#y').val());
+		});
+		$('#z').change(function(){
+			c = +($('#z').val());
+		});
+		
 		$(calc).click(function(){
-			$(res).text() = x + y + z;
+			$(res).text(a + b + c);
 		})
 	</script>
 </body>
