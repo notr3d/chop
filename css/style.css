@@ -91,13 +91,17 @@
   font-size: 18px;
   line-height: 30px;
 }
-.contacts__form {
+.contacts form {
   padding: 15px 0;
   background: #eee;
   border: 1px solid #ddd;
 }
-.contacts__form textarea {
+.contacts form textarea {
   resize: vertical;
+}
+.contacts img {
+  width: auto;
+  height: auto;
 }
 .map {
   border: 1px solid #ddd;
