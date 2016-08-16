@@ -3,11 +3,13 @@
 @desktop: ~ "(min-width: 1080)";
 
 @blue:#14237d;
+@white:#fff;
 
 @import "page-header.less";
 @import "contacts.less";
 @import "about.less";
 @import "page-footer.less";
+@import "callback.less";
 
 /*@font-face {
   font-family: Oswald;
@@ -30,12 +32,14 @@
 body {
   margin: 0;
 	min-height: 100vh;
-	padding-bottom: 250px;
+	//padding-bottom: 250px;
 	position: relative;
-	background: #f8f6f8;
 	background: #f8f6f8 url(../img/body-bg-2.png);
 	@media @mobile {
-		padding-bottom: 620px;
+		//padding-bottom: 620px;
+	}
+	&.overflow-hidden {
+		overflow: hidden;
 	}
 }
 
@@ -137,6 +141,9 @@ tr {
 	border-radius: 10px;
 	transition: all .3s;
 	box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.5);
+	position: absolute;
+    right: 0;
+    top: 0;
 	&:hover {
 		color: #fff !important;
 		text-decoration: none !important;

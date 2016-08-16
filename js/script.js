@@ -54,33 +54,36 @@ lightbox.option({
 	resizeDuration: 500,
 });
 
-{
 
-    var myCenter=new google.maps.LatLng(54.212117, 37.646803);
+//callback
 
-    function initialize(){
-        var mapProp = {
-            center:myCenter,
-            zoom:16,
-					  scrollwheel:false,
-            mapTypeId:google.maps.MapTypeId.ROADMAP
-        };
-
-        var map=new google.maps.Map(document.getElementById("map"), mapProp);
-
-        var marker=new google.maps.Marker({
-            position:myCenter,
-            icon:'../img/page-logo.png',
-            size: new google.maps.Size(20, 32)
-        });
-
-        marker.setMap(map);
-    }
-
-    google.maps.event.addDomListener(window, 'load', initialize);
-
+var callback = $('.callback');
+var callbackOpen = callback.find('.callback__open');
+var callbackWrapper = callback.find('.callback__wrapper');
+var callbackClose = callback.find('.callback__close');
+var body = $('body');
+var overflowHidden = 'overflow-hidden';
+var toggleCallback = function(){
+	callbackWrapper.toggle();
+	body.toggleClass(overflowHidden);
 };
+var callbackBody = callback.find('.callback__body');
+callbackOpen.click(function(){	
+	toggleCallback();
+});
+callbackClose.click(function(){	
+	toggleCallback();
+});
+callbackWrapper.click(function(){
+	toggleCallback();
+});
+callbackBody.click(function(e){
+	e.stopPropagation();
+});
 
-
-
+$(document).keyup(function(e) {
+    if (e.keyCode == 27) { 
+        toggleCallback();
+    };
+});
 

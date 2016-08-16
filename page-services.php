@@ -1,85 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Услуги</title>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/slick.css" rel="stylesheet">
-  <link href="css/slick-theme.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-</head>
-<body>
-  <header class="page-header">
-  	<div class="page-header__wrapper container-fluid">
-  		<section class="page-nav container">
-				<nav class="navbar">
-					<div class="container-fluid">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="page-logo navbar-brand" href="index.html"><span>Тула Регион Охрана</span></a>
-						</div>
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav navbar-right">
-								<li class="active"><a href="index.html" class="page-nav__link">О компании <span class="sr-only">(current)</span></a></li>
-								<li><a href="services.html" class="page-nav__link">Услуги</a></li>
-								<li class="dropdown">
-									<a href="#" class="page-nav__link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Документы <span class="caret"></span></a>
-									<ul class="dropdown-menu">
-										<li><a href="licenses.html" class="page-nav__link page-nav__link--small" class="page-nav__link">Лицензии</a></li>
-										<li><a href="reviews.html" class="page-nav__link page-nav__link--small">Отзывы</a></li>
-									</ul>
-								</li>
-								<li><a href="prices.html" class="page-nav__link">Цены</a></li>
-								<li><a href="customers.html" class="page-nav__link">Заказчики</a></li>
-								<li><a href="contacts.html" class="page-nav__link">Контакты</a></li>
-							</ul>
-						</div>
-					</div>
-				</nav>        
-			</section>
-			<section class="features row hidden-xs">
-				<div class="features__wrapper container">
-					<a href="services.html#1" class="features__item" id="#link-1">
-					<img src="img/features/1.png" alt="" width="80" height="80">
-					<span>Охрана стационарных объектов</span>
-					</a>
-					<a href="services.html#2" class="features__item" id="#link-2">
-					<img src="img/features/2.png" alt="" width="80" height="80">
-					<span>Обеспечение порядка в местах проведения массовых мероприятий</span>
-					</a>
-<!--
-					<a href="services.html#3" class="features__item" id="#link-3">
-					<img src="img/features/3.png" alt="" width="80" height="80">
-					<span>Личная охрана</span>
-					</a>
--->
-<!--
-					<a href="services.html#4" class="features__item" id="#link-4">
-					<img src="img/features/4.png" alt="" width="80" height="80">
-					<span>Пультовая охрана объектов</span>
-					</a>
--->
-					<a href="services.html#5" class="features__item" id="#link-5">
-					<img src="img/features/5.png" alt="" width="80" height="80">
-					<span>Технические системы безопасности</span>
-					</a>
-					<a href="services.html#6" class="features__item" id="#link-6">
-					<img src="img/features/6.png" alt="" width="80" height="80">
-					<span>Юридические услуги</span>
-					</a>					
-				</div>
-			</section>
-  	</div>
-  </header>  
+<?php get_header(); ?>   
   <main class="page-main container">
   	<aside class="page-aside col-sm-4">
   		<section class="category">  		
@@ -109,15 +28,15 @@
   				<h2 class="popular__header"><span>Самое популярное</span></h2>
   				<div class="popular__container">
   					<div class="popular__item row">
-							<a href="licenses.html">Лицензии</a>
-							<p>Перечень лицензий, имеющихся у ЧОО «ТулаРегионОхрана».</p>
+							<a href="http://regionchop.ru/licenses">Лицензии</a>
+							<p>Перечень лицензий, имеющихся у ЧОО «Тулрегионохрана».</p>
   					</div>
   					<div class="popular__item row">
-							<a href="customers.html">Отзывы</a>
+							<a href="http://regionchop.ru/customers">Отзывы</a>
 							<p>Наш профессионализм лучше всего подтверждает перечень наших заказчиков, доверяющих нам решение серьёзных охранных задач.</p>
   					</div>
   					<div class="popular__item row">
-							<a href="documents.html">Цены</a>
+							<a href="http://regionchop.ru/documents">Цены</a>
 							<p>Ценовая политика нашей организации. Работаем на взаимовыгодных условиях.</p>
   					</div>
   				</div>
@@ -128,12 +47,12 @@
   		<div class="services__wrapper">
   			<div class="services__container">
 					<div class="tab-content">
-						<div role="tabpanel" class="tab-pane fade active" id="1">
+						<div role="tabpanel" class="tab-pane fade in active" id="1">
 						  <h2 class="services__header"><span>Охрана стационарных объектов</span></h2>
-						  <img src="img/services/1.jpg" alt="">
-						  <p>Охрана стационарных объектов включает в себя ряд мероприятий, обеспечивающих безопасное и непрерывное функционирование работы предприятия, любого назначения. При становлении организации жизнеспособности бизнеса, важно понимать, какие риски и какие опасности могут произойти. Немаловажную роль играет местоположение объекта, поэтому при приеме и осмотре объекта, наша компания рассматривает все варианты чрезвычайных ситуаций. Для пресечения подобных происшествий, ЧОО «ТулаРегионОхрана» использует ряд проверенных опытом мероприятий, полностью исключающих незаконные действия, как со стороны внутреннего персонала, так и сторонних лиц.</p> 
-							<p>ЧОО «ТулаРегионОхрана» предлагает качественный спектр услуг по обеспечению безопасности стационарных объектов. Основная задача данного мероприятия – предотвращения преступных действий на объекте, путем выявления их на ранней стадии.</p>
-						  <div class="table-responsive">
+						  <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/services/1.jpg" alt="">
+						  <p>Охрана стационарных объектов включает в себя ряд мероприятий, обеспечивающих безопасное и непрерывное функционирование работы предприятия, любого назначения. При становлении организации жизнеспособности бизнеса, важно понимать, какие риски и какие опасности могут произойти. Немаловажную роль играет местоположение объекта, поэтому при приеме и осмотре объекта, наша компания рассматривает все варианты чрезвычайных ситуаций. Для пресечения подобных происшествий, ЧОО «Тулрегионохрана» использует ряд проверенных опытом мероприятий, полностью исключающих незаконные действия, как со стороны внутреннего персонала, так и сторонних лиц.</p> 
+							<p>ЧОО «Тулрегионохрана» предлагает качественный спектр услуг по обеспечению безопасности стационарных объектов. Основная задача данного мероприятия – предотвращения преступных действий на объекте, путем выявления их на ранней стадии.</p>
+						  <!--<div class="table-responsive">
 								<table class="prices__table table">
 									<thead>
 										<tr>
@@ -171,12 +90,12 @@
 										</tr>
 									</tbody>
 								</table>
-							</div>
+							</div>-->
 						</div>
 						<div role="tabpanel" class="tab-pane fade" id="2">
 							<h2 class="services__header"><span>Обеспечение порядка в местах проведения массовых мероприятий</span></h2>
-							<img src="img/services/2.jpg" alt="">
-							<p>Любое культурно-массовое мероприятие нуждается в организации безопасности, в связи с чем, ЧОО «ТулаРегионОхрана» гарантирует успешное проведение любого типа события, вне зависимости от количества посетителей.</p>
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/services/2.jpg" alt="">
+							<p>Любое культурно-массовое мероприятие нуждается в организации безопасности, в связи с чем, ЧОО «Тулрегионохрана» гарантирует успешное проведение любого типа события, вне зависимости от количества посетителей.</p>
 							<p>В основу организации охранной кампании подлежат обязательной проработке такие пункты, как:</p>
 							<ul>
 								<li>Персональный подход к разработке концепции безопасности мероприятия;</li>
@@ -188,7 +107,7 @@
 								<li>Патрулирование мероприятия и прилегающей территории, в течении всего времени проведения;</li>
 								<li>Защита жизни и здоровья посетителей от противоправных посягательств;</li>
 							</ul>
-							<p>Специалисты ЧОО «ТулаРегионОхрана» гарантируют спокойное проведение вашего мероприятия.</p>							
+							<p>Специалисты ЧОО «Тулрегионохрана» гарантируют спокойное проведение вашего мероприятия.</p>							
 							<div class="table-responsive">
 								<table class="prices__table table">
 									<thead>
@@ -250,12 +169,12 @@
 -->
 						<div role="tabpanel" class="tab-pane fade" id="5">
 							<h2 class="services__header"><span>Технические системы безопасности</span></h2>
-							<img src="img/services/5.png" alt="">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/services/5.png" alt="">
 						</div>
 						<div role="tabpanel" class="tab-pane fade" id="6">
 							<h2 class="services__header"><span>Юридические услуги</span></h2>
-							<img src="img/services/6.jpg" alt="">
-							<p>ЧОО «ТулаРегионОхрана» готова оказать содействие при необходимости решения любого вида юридических вопросов. Мы готовы оказать услуги:</p>
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/services/6.jpg" alt="">
+							<p>ЧОО «Тулрегионохрана» готова оказать содействие при необходимости решения любого вида юридических вопросов. Мы готовы оказать услуги:</p>
 							<ul>
 								<li>Юридические консультации;</li>
 								<li>Представительство интересов клиента в суде;</li>
@@ -272,34 +191,4 @@
   		</div>
   	</article>	
   </main>
-  <footer class="page-footer">
-  	<div class="page-footer__wrapper container">
-  		<div class="page-footer__left col-sm-4 container">
-  			<ul class="page-footer__nav col-sm-6">
-  				<li><a href="index.html">О компании</a></li>
-  				<li><a href="licenses.html">Лицензии</a></li>
-  				<li><a href="services.html">Услуги</a></li>
-  				<li><a href="customers.html">Заказчики</a></li>
-  			</ul>
-  			<ul class="page-footer__nav col-sm-6">
-  				<li><a href="services.html">Услуги</a></li>
-  				<li><a href="customers.html">Заказчики</a></li>
-  				<li><a href="contacts.html">Контакты</a></li>
-  			</ul>  			
-		</div>	
-		<div class="page-footer__right col-sm-8 container"> 			
-		<address>
-			<p class="phone">8 (495) 789-36-86<br>8 (929) 525-37-27</p>
-			Россия, Москва, 105318,<br>
-			ул. Ибрагимова, д. 31
-			<p class="copy">© 2016 ЧОО "ТулаРегионОхрана"</p>
-		</address>
-		</div>		
-  	</div>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/slick.js"></script>
-  <script src="js/script.js"></script>
-</body>
-</html>
+ <?php get_footer(); ?> 
