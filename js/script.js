@@ -58,7 +58,7 @@ lightbox.option({
 //callback
 
 var callback = $('.callback');
-var callbackOpen = callback.find('.callback__open');
+var callbackOpen = $('.callback__open');
 var callbackWrapper = callback.find('.callback__wrapper');
 var callbackClose = callback.find('.callback__close');
 var body = $('body');

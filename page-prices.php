@@ -14,7 +14,7 @@
 							<p>Наш профессионализм лучше всего подтверждает перечень наших заказчиков, доверяющих нам решение серьёзных охранных задач.</p>
   					</div>
   					<div class="popular__item row">
-							<a href="http://regionchop.ru/documents">Цены</a>
+							<a href="http://regionchop.ru/prices">Цены</a>
 							<p>Ценовая политика нашей организации. Работаем на взаимовыгодных условиях.</p>
   					</div>
   				</div>
@@ -25,7 +25,7 @@
   		<div class="prices__wrapper">
   			<h1 class="prices__header">
 				<span>Цены</span>  			
-				<a href="region-chop.PDF" class="download">Скачать каталог</a></h1>
+				<a href="http://regionchop.ru/wp-content/uploads/2016/08/region-chop.pdf" class="download">Скачать каталог</a></h1>
   			<div class="prices__container">
 <!--
   				<div class="prices__calculator">
@@ -189,6 +189,7 @@
 					</div>-->
 					<p>Гибкость финансово–экономической политики нашей организации способствует достижению формата партнёрства, максимально выгодного для обеих сторон. Стоимость одного часа охраны при полном соответствии требуемой схеме расстановки рассчитывается индивидуально с каждым заказчиком.</p>
   			</div>
+  			<div class="callback__open">Узнать стоимость охраны объекта</div>
   		</div>
   	</article>	
   </main>

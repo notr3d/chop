@@ -11,7 +11,9 @@
   <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/slick.css" rel="stylesheet">
   <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/slick-theme.css" rel="stylesheet">
   <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/lightbox.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>	  
+  
+	<meta name="google-site-verification" content="tbbVNlMcbdWbGAsPEjphvUFbGslSQJ1PSIRd8RYUfUU" />
   <?php wp_head(); ?>
 </head>
 <body>
