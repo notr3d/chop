@@ -36,11 +36,11 @@
 		</div>	
 		<div class="page-footer__right col-sm-6 container"> 			
 			<address>
-				<p class="phone">8 (953) 953-81-27</p>
+				<p class="phone">8 (487) 252-44-51</p>
 				<strong>Адрес:</strong> 300004, Россия,<br>
 				г.Тула, шоссе Веневское,<br>
 				д.4, корп.5, офис №109<br>
-				<strong>E-mail:</strong> <a href="mailto:zarevo1111@yandex.ru">zarevo1111@yandex.ru</a>
+				<strong>E-mail:</strong> <a href="mailto:info@regionchop.ru">info@regionchop.ru</a>
 				<p class="copy">© 2016 ЧОО "Тулрегионохрана"</p>
 			</address>
 			<!-- Yandex.Metrika informer -->

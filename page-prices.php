@@ -25,7 +25,7 @@
   		<div class="prices__wrapper">
   			<h1 class="prices__header">
 				<span>Цены</span>  			
-				<a href="http://regionchop.ru/wp-content/uploads/2016/08/region-chop.pdf" class="download">Скачать каталог</a></h1>
+				<!--<a href="http://regionchop.ru/wp-content/uploads/2016/08/region-chop.pdf" class="download">Скачать каталог</a>--></h1>
   			<div class="prices__container">
 <!--
   				<div class="prices__calculator">

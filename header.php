@@ -13,7 +13,9 @@
   <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/lightbox.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>	  
   
-	<meta name="google-site-verification" content="tbbVNlMcbdWbGAsPEjphvUFbGslSQJ1PSIRd8RYUfUU" />
+  <meta name="google-site-verification" content="tbbVNlMcbdWbGAsPEjphvUFbGslSQJ1PSIRd8RYUfUU" />
+  <meta name="yandex-verification" content="fef53294090caae9" />
+  <meta name='wmail-verification' content='2ea10c18c778323da24a6623cffb5ee5' />
   <?php wp_head(); ?>
 </head>
 <body>
