@@ -79,6 +79,12 @@
 								<p>ООО<br>"СКИФ"</p>
 							</div>
   			    </a> 
+  			    	<a class="customers__item col-sm-4">
+							<div>
+								<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/customers/7.PNG" alt="" height="80"><br>
+								<p>НПО<br>"Серпуховский механический завод"</p>
+							</div>
+  			    </a> 
   			    			  			  			  
   			</div>
   		</div>

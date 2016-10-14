@@ -36,7 +36,7 @@
 		</div>	
 		<div class="page-footer__right col-sm-6 container"> 			
 			<address>
-				<p class="phone">8 (487) 252-44-51</p>
+				<p class="phone">8 (4872) 52-44-51</p>
 				<strong>Адрес:</strong> 300004, Россия,<br>
 				г.Тула, шоссе Веневское,<br>
 				д.4, корп.5, офис №109<br>

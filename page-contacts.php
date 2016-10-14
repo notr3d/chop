@@ -28,7 +28,7 @@
   			  <address class="contacts__address">
 				<strong>ЧОО "ТулаРегионОхрана"</strong><br>
 				<strong>Адрес:</strong> 300004, Россия, г.Тула, шоссе Веневское, д.4, корп.5, офис №109<br>
-				<strong>Телефон:</strong> 8 (487) 252-44-51<br>
+				<strong>Телефон:</strong> 8 (4872) 52-44-51<br>
 				<strong>E-mail:</strong> <a href="mailto:info@regionchop.ru">info@regionchop.ru</a>
 			  </address>						
   			  <div id="map" class="map"></div>  				

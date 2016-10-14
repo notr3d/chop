@@ -382,7 +382,6 @@ article img {
   height: 100%;
 }
 article p {
-  text-align: justify;
   margin-bottom: 15px;
 }
 article ul {
@@ -391,7 +390,6 @@ article ul {
 article ul li {
   position: relative;
   padding: 3px 0;
-  text-align: justify;
 }
 article ul li::before {
   content: '';
@@ -505,7 +503,6 @@ tr td:nth-of-type(2) {
 .popular__item p {
   font-size: 14px;
   line-height: 21px;
-  text-align: justify;
 }
 .popular__item::before {
   display: inline-block;

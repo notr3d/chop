@@ -31,23 +31,23 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="page-logo navbar-brand" href="http://regionchop.ru"><span>Тулрегионохрана</span></a>
+							<a class="page-logo navbar-brand" href="http://old.regionchop.ru"><span>Тулрегионохрана</span></a>
 						</div>
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
-								<li class="active"><a href="http://regionchop.ru" class="page-nav__link">О компании <span class="sr-only">(current)</span></a></li>
-								<li><a href="http://regionchop.ru/services/" class="page-nav__link">Услуги</a></li>
+								<li class="active"><a href="http://old.regionchop.ru" class="page-nav__link">О компании <span class="sr-only">(current)</span></a></li>
+								<li><a href="http://old.regionchop.ru/services/" class="page-nav__link">Услуги</a></li>
 								<li class="dropdown">
 									<a href="#" class="page-nav__link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Документы <span class="caret"></span></a>
 									<ul class="dropdown-menu">
-										<li><a href="http://regionchop.ru/licenses" class="page-nav__link page-nav__link--small" class="page-nav__link">Лицензии</a></li>
-										<li><a href="http://regionchop.ru/reviews" class="page-nav__link page-nav__link--small">Отзывы</a></li>
+										<li><a href="http://old.regionchop.ru/licenses" class="page-nav__link page-nav__link--small" class="page-nav__link">Лицензии</a></li>
+										<li><a href="http://old.regionchop.ru/reviews" class="page-nav__link page-nav__link--small">Отзывы</a></li>
 									</ul>
 								</li>
-								<li><a href="http://regionchop.ru/prices" class="page-nav__link">Цены</a></li>
-								<li><a href="http://regionchop.ru/customers" class="page-nav__link">Заказчики</a></li>
-								<li><a href="http://regionchop.ru/partners" class="page-nav__link">Партнеры</a></li>								
-								<li><a href="http://regionchop.ru/contacts" class="page-nav__link">Контакты</a></li>
+								<li><a href="http://old.regionchop.ru/prices" class="page-nav__link">Цены</a></li>
+								<li><a href="http://old.regionchop.ru/customers" class="page-nav__link">Заказчики</a></li>
+								<li><a href="http://old.regionchop.ru/partners" class="page-nav__link">Партнеры</a></li>								
+								<li><a href="http://old.regionchop.ru/contacts" class="page-nav__link">Контакты</a></li>
 							</ul>
 						</div>
 					</div>
@@ -55,31 +55,31 @@
 			</section>
 			<section class="features row hidden-xs">
 				<div class="features__wrapper container">
-					<a href="http://regionchop.ru/services#1" class="features__item" id="#link-1">
+					<a href="http://old.regionchop.ru/services#1" class="features__item" id="#link-1">
 						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/features/1.png" alt="" width="80" height="80">
 						<span>Охрана стационарных объектов</span>
 					</a>
-					<a href="http://regionchop.ru/services#2" class="features__item" id="#link-2">
+					<a href="http://old.regionchop.ru/services#2" class="features__item" id="#link-2">
 						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/features/2.png" alt="" width="80" height="80">
 						<span>Обеспечение порядка в местах проведения массовых мероприятий</span>
 					</a>
 <!--
-					<a href="http://regionchop.ru/services#3" class="features__item" id="#link-3">
+					<a href="http://old.regionchop.ru/services#3" class="features__item" id="#link-3">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/features/3.png" alt="" width="80" height="80">
 					<span>Личная охрана</span>
 					</a>
 -->
 <!--
-					<a href="http://regionchop.ru/services#4" class="features__item" id="#link-4">
+					<a href="http://old.regionchop.ru/services#4" class="features__item" id="#link-4">
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/features/4.png" alt="" width="80" height="80">
 					<span>Пультовая охрана объектов</span>
 					</a>
 -->
-					<a href="http://regionchop.ru/services#5" class="features__item" id="#link-5">
+					<a href="http://old.regionchop.ru/services#5" class="features__item" id="#link-5">
 						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/features/5.png" alt="" width="80" height="80">
 						<span>Технические системы безопасности</span>
 					</a>
-					<a href="http://regionchop.ru/services#6" class="features__item" id="#link-6">
+					<a href="http://old.regionchop.ru/services#6" class="features__item" id="#link-6">
 						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/features/6.png" alt="" width="80" height="80">
 						<span>Юридические услуги</span>
 					</a>				
